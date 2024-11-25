@@ -8,7 +8,7 @@
 }
 
 html {
-    font-size: 62.5%; /* 1rem = 10px for easier scaling */
+    font-size: 62.5%;
 }
 
 body {
@@ -18,8 +18,7 @@ body {
     color: white;
     overflow-x: hidden;
     line-height: 1.6;
-    font-size: 1.6rem; /* Default font size for body */
-}
+    font-size: 1.6rem;
 
 header {
     position: fixed;
@@ -35,7 +34,7 @@ header {
 }
 
 header .logo {
-    font-size: 2.4rem; /* Slightly smaller size */
+    font-size: 2.4rem;
     color: white;
     font-weight: 800;
     transition: 0.5s ease;
@@ -47,7 +46,7 @@ header .logo:hover {
 }
 
 header nav a {
-    font-size: 1.6rem; /* Reduced font size for easier readability */
+    font-size: 1.6rem;
     color: white;
     margin-left: 4rem;
     font-weight: 500;
@@ -81,7 +80,7 @@ header nav a.active {
 
     nav a {
         display: block;
-        font-size: 1.8rem; /* Slightly larger for mobile */
+        font-size: 1.8rem;
         margin: 3rem 0;
     }
 
@@ -97,6 +96,12 @@ section {
     padding: 6rem 9%;
     min-height: 100vh;
     text-align: center;
+    position: relative;
+    background: linear-gradient(to bottom right, #1e1e1e, #3a3a3a);
+    border-radius: 20px;
+    margin: 2rem auto;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
 }
 
 .home {
@@ -107,9 +112,9 @@ section {
 }
 
 .home-img img {
-    width: 300px;
+    width: 400px;
     height: 300px;
-    border-radius: 50%;
+    border-radius: 20%;
     box-shadow: 0 0 25px solid #414141;
     transition: transform 0.3s ease;
 }
@@ -130,17 +135,17 @@ section {
 }
 
 .home-content h1 span {
-    color: #007bff;
+    color: #ffffff;
 }
 
 .home-content h3 {
-    font-size: 2.2rem; /* Slightly smaller for better balance */
+    font-size: 2.2rem;
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
 
 .home-content p {
-    font-size: 1.4rem; /* Adjusted to 1.4rem for better readability */
+    font-size: 1.4rem;
     text-align: justify;
     text-indent: 2rem;
     line-height: 1.8;
@@ -174,7 +179,7 @@ section {
 .social-icons a {
     margin: 0 10px;
     color: #b3b3b3;
-    font-size: 2.4rem; /* Slightly larger for better visibility */
+    font-size: 2.4rem; 
     transition: color 0.3s;
 }
 
@@ -198,7 +203,7 @@ section {
 }
 
 .section ul li {
-    font-size: 1.6rem; /* Adjusted to match general font size */
+    font-size: 1.6rem;
     margin-bottom: 1rem;
     padding-left: 1.5rem;
     text-indent: -1.5rem;
@@ -206,7 +211,7 @@ section {
 }
 
 .section ul li a {
-    color: #007BFF;
+    color: #ffffff;
     text-decoration: none;
 }
 
